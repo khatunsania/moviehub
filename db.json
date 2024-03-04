@@ -1,0 +1,62 @@
+{
+    "movie": [
+        {
+            "id": "1",
+            "title": "Women's Day",
+            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster01.jpg",
+            "ageRatting": "pg 18",
+            "quallity": "HD",
+            "catagory": "Thriller",
+            "year": "2022",
+            "length": "128 min",
+            "like": "3.5",
+            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+            "videoLink": "https://youtu.be/0G0zvHmGVWk?si=9s_mUs6lLrbktdnB"
+        },
+        {
+            "id": "2",
+            "title": "The Perfect Match",
+            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster02.jpg",
+            "ageRatting": "pg 18",
+            "quallity": "4k",
+            "catagory": "Sports",
+            "year": "2022",
+            "length": "128 min",
+            "like": "3.5",
+            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+            "videoLink": "https://youtu.be/lf4GJAY4n1I?si=SFTmar1TuRvg_1FF"
+        },
+        {
+            "id": "3",
+            "title": "The Dog woof",
+            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster03.jpg",
+            "ageRatting": "pg 18",
+            "quallity": "HD",
+            "catagory": "Animation",
+            "year": "2022",
+            "length": "128 min",
+            "like": "3.5",
+            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+            "videoLink": "https://youtu.be/V4tAtp-TyzQ?si=Xa_m7QclC8GgVI43"
+        },
+        {
+            "id": "4",
+            "title": "The Easy Reach",
+            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster04.jpg",
+            "ageRatting": "pg 18",
+            "quallity": "8k",
+            "catagory": "romance,drama",
+            "year": "2023",
+            "length": "128 min",
+            "like": "3.5",
+            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+            "videoLink": "https://youtu.be/BJVkoq_wK80?si=NQO1Mn6OC0hPgjSO"
+        }
+    ],
+    "user": [
+        {
+            "email": "khatunsania403@gmail.com",
+            "password": "sania3398"
+        }
+    ]
+}

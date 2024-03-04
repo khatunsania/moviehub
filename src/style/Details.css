@@ -1,0 +1,137 @@
+.detail-page {
+	width: 100%;
+	background-image: url("/img/movie_details_bg.jpg");
+}
+.d-hero {
+	width: 75%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.d-cont {
+	display: flex;
+	width: 70%;
+}
+.d-cont .d-text h4 {
+	font-size: 26px;
+	margin-bottom: 10px;
+	color: #e4d804;
+}
+.d-cont .d-text h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.d-cont .d-text h1 span {
+	color: #e4d804;
+}
+.d-cont .d-text ul {
+	display: flex;
+}
+.d-cont .d-text ul .quality span {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #21232b;
+	background: #fff;
+	font-weight: 700;
+	padding: 7px 11px;
+	line-height: 1;
+}
+.d-cont .d-text ul .quality .hd {
+	background: transparent;
+	color: #fff;
+	margin-left: 9px;
+	border: 2px solid #fff;
+	padding: 5px 10px;
+}
+.d-cont .d-text ul li {
+	margin-right: 20px;
+	list-style: none;
+}
+.d-cont .d-text ul li a {
+	font-size: 14px;
+	font-weight: 500;
+	color: #e3dfdf;
+	text-decoration: none;
+}
+.d-cont .d-text ul li i {
+	font-size: 12px;
+	margin-left: 5px;
+	color: #e4d804;
+}
+.d-cont .d-text ul li span {
+	color: #e3dfdf;
+	font-size: 13px;
+	margin-right: 10px;
+}
+.d-cont .d-text p {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #bcbcbc;
+	padding-top: 25px;
+	padding-bottom: 80px;
+}
+.d-cont .d-text button {
+	user-select: none;
+	-moz-user-select: none;
+	background: transparent;
+	border: 2px solid #e4d804;
+	border-radius: 50px;
+	color: #e3dfdf;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-bottom: 0;
+	padding: 14px 34px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	max-width: 200px;
+}
+.d-cont .d-text button a {
+	color: #e3dfdf;
+	text-decoration: none;
+}
+.d-cont .d-text button i {
+	padding-right: 10px;
+}
+.d-cont .d-img {
+	margin-right: 20px;
+	width: 75%;
+}
+.d-cont .d-img img {
+	width: 90%;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+.d-hero .down {
+	width: 30%;
+	position: relative;
+}
+.d-hero .down a {
+	background: #e4d804;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	color: #14141d;
+	letter-spacing: 5px;
+	position: absolute;
+	bottom: 65px;
+	right: 23px;
+	transform: rotate(90deg);
+	padding: 43px 49px;
+	border-radius: 6px;
+	text-decoration: none;
+}

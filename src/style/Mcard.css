@@ -1,0 +1,50 @@
+.m-card {
+	width: 88%;
+}
+.m-card .m-img {
+	width: 100%;
+}
+.m-card .m-img h3 {
+	color: #fff;
+}
+.m-card .m-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	width: 100%;
+	color: #fff;
+	padding-top: 10px;
+}
+.m-card .m-text h4 a {
+	color: #fff;
+	text-decoration: none;
+}
+.m-card .bottom ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.m-card .bottom ul li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.m-card .bottom ul li p {
+	border: 2px solid #fff;
+	padding: 5px 10px;
+	line-height: 1;
+	font-weight: 700;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #e4d804;
+}
+.m-card .bottom ul li span i {
+	margin-left: 5px;
+	color: #e4d804;
+	font-size: 12px;
+}
+.m-card .bottom ul li span {
+	color: #fff;
+	font-size: 12px;
+}

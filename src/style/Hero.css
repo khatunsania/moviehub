@@ -1,0 +1,92 @@
+.hero-sec {
+	width: 100%;
+	background-image: url("/img/banner_bg01.jpg");
+}
+.hero-sec .h-text {
+	padding-top: 205px;
+	width: 45%;
+	padding-left: 200px;
+	padding-bottom: 300px;
+}
+.hero-sec .h-text h3 {
+	font-size: 26px;
+	margin-bottom: 10px;
+	color: #e4d804;
+}
+.hero-sec .h-text h1 {
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 29px;
+	color: #fff;
+}
+.hero-sec .h-text h1 span {
+	color: #e4d804;
+}
+.hero-sec .h-text ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.hero-sec .h-text ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	margin-right: 18px;
+	list-style: none;
+}
+.hero-sec .h-text ul li span {
+	font-size: 13px;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #21232b;
+	font-weight: 700;
+	padding: 7px 11px;
+	line-height: 1;
+}
+.hero-sec .h-text ul {
+	padding-bottom: 20px;
+}
+.hero-sec .h-text ul li.quality .hd {
+	margin-left: 10px;
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 5px 10px;
+}
+.hero-sec .h-text ul li a {
+	display: flex;
+	align-items: center;
+
+	text-decoration: none;
+	color: #fff;
+}
+.hero-sec .h-text ul li:last-child span {
+	background-color: transparent;
+	color: #fff;
+}
+.hero-sec .h-text button {
+	user-select: none;
+	-moz-user-select: none;
+	background: #12151e none repeat scroll 0 0;
+	border: 2px solid #e4d804;
+	border-radius: 50px;
+	color: #e3dfdf;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-bottom: 0;
+	padding: 14px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	max-width: 200px;
+	cursor: pointer;
+}
+.hero-sec .h-text button i {
+	padding-right: 5px;
+}

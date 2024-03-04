@@ -1,0 +1,69 @@
+.navbar {
+	width: 100%;
+	padding-top: 30px;
+}
+.nav {
+	width: 85%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	width: 20%;
+	cursor: pointer;
+}
+.bars {
+	width: 40%;
+}
+.bars ul {
+	display: flex;
+}
+.bars ul li {
+	margin-right: 38px;
+	list-style: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 14px;
+}
+.bars ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.menu {
+	width: 17%;
+}
+.menu i {
+	margin-right: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.menu button {
+	user-select: none;
+	-moz-user-select: none;
+	background: #12151e none repeat scroll 0 0;
+	border: 2px solid #e4d804;
+	border-radius: 50px;
+	color: #e3dfdf;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-bottom: 0;
+	padding: 16px 34px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	max-width: 200px;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 34px;
+}

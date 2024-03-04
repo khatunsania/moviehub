@@ -1,0 +1,46 @@
+.login {
+	width: 100%;
+	background-image: url("/img/movie_details_bg.jpg");
+	height: 100vh;
+}
+.login .l-form {
+	width: 75%;
+	margin: auto;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+.login .form-cont {
+	width: 40%;
+	margin: auto;
+	border: 2px solid #e4d804;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.login .form-cont h2 {
+	color: #e4d804;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+.login .form-cont .form {
+	width: 80%;
+	margin: auto;
+	align-items: center;
+}
+.login .form-cont .form input {
+	width: 95%;
+	padding: 25px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+.login .l-btn {
+	width: 100%;
+}
+.login .l-btn {
+	width: 100%;
+	padding: 20px 10px 17px 10px;
+	background-color: #e4d804;
+	border-radius: 10px;
+	color: #1f2937;
+	font-size: 14px;
+	font-weight: 700;
+	align-items: center;
+}

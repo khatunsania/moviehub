@@ -20,7 +20,7 @@ const Login = () => {
 			console.log(email, password);
 			if (data.length > 0) {
 				localStorage.setItem("user", JSON.stringify(data));
-				navigate("/");
+				navigate("/admin");
 			} else {
 				alert("your login details are wrong");
 			}

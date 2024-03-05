@@ -1,0 +1,64 @@
+.admin {
+	background-image: url("/img/movie_details_bg.jpg");
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.add {
+	width: 75%;
+	margin: auto;
+	border: 1px solid #e4d808;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.add .a-table .m-list {
+	width: 95%;
+	margin: auto;
+	margin-top: 40px;
+}
+.add .a-table .a-btn {
+	background: #e4d808;
+	padding: 10px 10px 10px 10px;
+	margin-top: 30px;
+	margin-left: 25px;
+
+	border-radius: 7px;
+	border: 1px solid #e4d808;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.add .a-table .m-list ul {
+	display: flex;
+	justify-content: space-around;
+}
+.add .a-table .m-list ul li {
+	list-style: none;
+	color: #fbfcfc;
+	font-weight: 700;
+}
+.add .id-list li img {
+	width: 50px;
+	height: 50px;
+}
+.add .a-table .id-list {
+	width: 95%;
+	margin: auto;
+	margin-top: 30px;
+}
+.add .a-table .id-list button {
+	background: #e4d808;
+	padding: 5px 8px 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #e4d808;
+	margin-right: 5px;
+}
+.add .a-table .id-list ul {
+	display: flex;
+	justify-content: space-around;
+}
+.add .a-table .id-list ul li {
+	list-style: none;
+	color: #fbfcfc;
+	padding-left: 10px;
+}

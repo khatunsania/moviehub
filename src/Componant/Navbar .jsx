@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../style/Navbar.css";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
+	const [show, setShow] = useState(false);
+	useEffect(function () {
+		const user = localStorage.getItem("user");
+		if (!user) {
+			setShow(true);
+		}
+	}, []);
 	return (
 		<>
 			<div className="navbar">
@@ -30,9 +38,17 @@ const Navbar = () => {
 					</div>
 					<div className="menu">
 						<i class="fa-solid fa-magnifying-glass"></i>
-						<Link to="/login">
-							<button>sign in</button>
-						</Link>
+						{show ? (
+							<>
+								<Link to="/login">
+									<button>sign in</button>
+								</Link>
+							</>
+						) : (
+							<>
+								<button>Log Out</button>
+							</>
+						)}
 					</div>
 				</div>
 			</div>
@@ -41,3 +57,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+ 

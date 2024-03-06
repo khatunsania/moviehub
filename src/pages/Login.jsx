@@ -37,8 +37,10 @@ const Login = () => {
 					<Navbar />
 				</div>
 				<div className="l-form">
-					<div className="form-cont">
+					<div className="l-t">
 						<h2>Login</h2>
+					</div>
+					<div className="form-cont">
 						<div className="form">
 							<input
 								type="email"

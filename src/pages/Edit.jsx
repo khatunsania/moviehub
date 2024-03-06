@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Addmovie from "./Addmovie";
 
 const Edit = () => {
-  return (
-    <>
-    <div className="edit"></div>
-    </>
-  )
-}
+	return (
+		<>
+			<Addmovie />
+		</>
+	);
+};
 
-export default Edit
+export default Edit;

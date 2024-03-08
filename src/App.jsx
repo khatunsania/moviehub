@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Admin from "./pages/Admin";
 import Addmovie from "./pages/Addmovie";
 import Edit from "./pages/Edit";
+
 function App() {
 	return (
 		<>
@@ -19,6 +20,7 @@ function App() {
 				<Route path="/admin" element={<Admin />} />
 				<Route path="addmovie" element={<Addmovie />} />
 				<Route path="edit movie" element={<Edit />} />
+				
 			</Routes>
 			<Footer />
 		</>

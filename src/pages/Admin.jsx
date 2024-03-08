@@ -5,7 +5,6 @@ import axios from "axios";
 import Navbar from "../Componant/Navbar ";
 import { Link, useNavigate } from "react-router-dom";
 
-
 const Admin = () => {
 	const [movie, setmovie] = useState([]);
 	const navigate = useNavigate();
@@ -32,16 +31,39 @@ const Admin = () => {
 						</Link>
 
 						<div className="m-list">
-							<ul>
-								<li>Id</li>
-								<li>Thumbnail</li>
-								<li>Title</li>
-								<li>Catagory</li>
-								<li>Quality</li>
-								<li>Action</li>
-							</ul>
+							<table id="customers">
+								<tr>
+									<th>id</th>
+									<th>Thumbnail</th>
+									<th>quality</th>
+									<th>catagory</th>
+									<th>year</th>
+									<th>Length</th>
+									<th>Action</th>
+								</tr>
+								{movie.map((item, index) => (
+									<tr>
+										<td>{item?.id}</td>
+										<td>
+											<img src={item?.image} alt="" />
+										</td>
+										<td>{item?.quallity}</td>
+										<td>{item?.catagory}</td>
+										<td>{item?.year}</td>
+										<td>{item?.length}</td>
+										<td>
+											<Link to={`/detail/${item?.id}`}>
+												{" "}
+												<i class="fa-solid fa-eye"></i>
+											</Link>
+											<i class="fa-regular fa-pen-to-square"></i>
+											<i class="fa-solid fa-trash-can"></i>
+										</td>
+									</tr>
+								))}
+							</table>
 						</div>
-						<div className="id-list">
+						{/* <div className="id-list">
 							{movie?.map((item, index) => (
 								<>
 									<ul>
@@ -68,11 +90,10 @@ const Admin = () => {
 													<i class="fa-solid fa-eye"></i>
 												</button>
 											</Link>
-											<Link to={}>
-												<button>
-													<i class="fa-solid fa-pen-to-square"></i>
-												</button>
-											</Link>
+
+											<button>
+												<i class="fa-solid fa-pen-to-square"></i>
+											</button>
 
 											<button>
 												<i class="fa-solid fa-trash"></i>
@@ -81,7 +102,7 @@ const Admin = () => {
 									</ul>
 								</>
 							))}
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

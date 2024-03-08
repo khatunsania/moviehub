@@ -51,12 +51,28 @@
             "like": "3.5",
             "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
             "videoLink": "https://youtu.be/BJVkoq_wK80?si=NQO1Mn6OC0hPgjSO"
-        }
+        },
+        {
+            "id": "7a1d",
+            "title": "Animal",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxk9rkmGc2FQDNu5nyz0wtUKuEc6VNUoga2usbl1ziXrW26f_R",
+            "quallity": "",
+            "catagory": "Action",
+            "year": "2023",
+            "ageRatting": "",
+            "length": "180min",
+            "like": "150m",
+            "description": "",
+            "videoLink": "https://www.youtube.com/embed/WuH9ahB-68Q?si=4y-ux8MQhvI5eNH0",
+            "ageeRatting": "18+",
+            "decription": "The son of a wealthy, powerful industrialist returns to India and undergoes a remarkable transformation as he becomes consumed by a quest for vengeance against those threatening his father's life."
+        },
     ],
     "user": [
         {
             "email": "khatunsania403@gmail.com",
-            "password": "sania3398"
+            "password": "sania3398",
+            "id": "b68e"
         }
     ]
 }

@@ -8,13 +8,13 @@ const Addmovie = () => {
 	const [movie, setmovie] = useState({
 		title: "",
 		image: "",
-		quallity: "",
+		quallity: "HD",
 		catagory: "",
 		year: "",
 		ageRatting: "",
 		length: "",
 		like: "",
-		description: "",
+		desc: "",
 		videoLink: "",
 	});
 	const navigate = useNavigate();
@@ -100,7 +100,7 @@ const Addmovie = () => {
 								<input
 									type="text"
 									placeholder="Add ageratting"
-									name="ageeRatting"
+									name="ageRatting"
 									onChange={handlechange}
 								/>
 							</label>{" "}
@@ -129,7 +129,7 @@ const Addmovie = () => {
 							<label>
 								<textarea
 									placeholder="add description"
-									name="decription"
+									name="desc"
 									onChange={handlechange}
 								></textarea>
 							</label>{" "}

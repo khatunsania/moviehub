@@ -1,78 +1,102 @@
 {
-    "movie": [
-        {
-            "id": "1",
-            "title": "Women's Day",
-            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster01.jpg",
-            "ageRatting": "pg 18",
-            "quallity": "HD",
-            "catagory": "Thriller",
-            "year": "2022",
-            "length": "128 min",
-            "like": "3.5",
-            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
-            "videoLink": "https://youtu.be/0G0zvHmGVWk?si=9s_mUs6lLrbktdnB"
-        },
-        {
-            "id": "2",
-            "title": "The Perfect Match",
-            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster02.jpg",
-            "ageRatting": "pg 18",
-            "quallity": "4k",
-            "catagory": "Sports",
-            "year": "2022",
-            "length": "128 min",
-            "like": "3.5",
-            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
-            "videoLink": "https://youtu.be/lf4GJAY4n1I?si=SFTmar1TuRvg_1FF"
-        },
-        {
-            "id": "3",
-            "title": "The Dog woof",
-            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster03.jpg",
-            "ageRatting": "pg 18",
-            "quallity": "HD",
-            "catagory": "Animation",
-            "year": "2022",
-            "length": "128 min",
-            "like": "3.5",
-            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
-            "videoLink": "https://youtu.be/V4tAtp-TyzQ?si=Xa_m7QclC8GgVI43"
-        },
-        {
-            "id": "4",
-            "title": "The Easy Reach",
-            "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster04.jpg",
-            "ageRatting": "pg 18",
-            "quallity": "8k",
-            "catagory": "romance,drama",
-            "year": "2023",
-            "length": "128 min",
-            "like": "3.5",
-            "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
-            "videoLink": "https://youtu.be/BJVkoq_wK80?si=NQO1Mn6OC0hPgjSO"
-        },
-        {
-            "id": "7a1d",
-            "title": "Animal",
-            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxk9rkmGc2FQDNu5nyz0wtUKuEc6VNUoga2usbl1ziXrW26f_R",
-            "quallity": "",
-            "catagory": "Action",
-            "year": "2023",
-            "ageRatting": "",
-            "length": "180min",
-            "like": "150m",
-            "description": "",
-            "videoLink": "https://www.youtube.com/embed/WuH9ahB-68Q?si=4y-ux8MQhvI5eNH0",
-            "ageeRatting": "18+",
-            "decription": "The son of a wealthy, powerful industrialist returns to India and undergoes a remarkable transformation as he becomes consumed by a quest for vengeance against those threatening his father's life."
-        },
-    ],
-    "user": [
-        {
-            "email": "khatunsania403@gmail.com",
-            "password": "sania3398",
-            "id": "b68e"
-        }
-    ]
+  "movie": [
+    {
+      "id": "1",
+      "title": "Women's Day",
+      "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster01.jpg",
+      "ageRatting": "pg 18",
+      "quallity": "HD",
+      "catagory": "Thriller",
+      "year": "2022",
+      "length": "128 min",
+      "like": "3.5",
+      "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+      "videoLink": "https://youtu.be/0G0zvHmGVWk?si=9s_mUs6lLrbktdnB"
+    },
+    {
+      "id": "2",
+      "title": "The Perfect Match",
+      "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster02.jpg",
+      "ageRatting": "pg 18",
+      "quallity": "4k",
+      "catagory": "Sports",
+      "year": "2022",
+      "length": "128 min",
+      "like": "3.5",
+      "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+      "videoLink": "https://youtu.be/lf4GJAY4n1I?si=SFTmar1TuRvg_1FF"
+    },
+    {
+      "id": "3",
+      "title": "The Dog woof",
+      "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster03.jpg",
+      "ageRatting": "pg 18",
+      "quallity": "HD",
+      "catagory": "Animation",
+      "year": "2022",
+      "length": "128 min",
+      "like": "3.5",
+      "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+      "videoLink": "https://youtu.be/V4tAtp-TyzQ?si=Xa_m7QclC8GgVI43"
+    },
+    {
+      "id": "4",
+      "title": "The Easy Reach",
+      "image": "https://themebeyond.com/html/movflx/img/poster/ucm_poster04.jpg",
+      "ageRatting": "pg 18",
+      "quallity": "8k",
+      "catagory": "romance,drama",
+      "year": "2023",
+      "length": "128 min",
+      "like": "3.5",
+      "desc": "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.",
+      "videoLink": "https://youtu.be/BJVkoq_wK80?si=NQO1Mn6OC0hPgjSO"
+    },
+    {
+      "id": "1ec0",
+      "title": "Dunki",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Dunki_poster.jpg/220px-Dunki_poster.jpg",
+      "quallity": "HD",
+      "catagory": "Romance",
+      "year": "2023",
+      "ageRatting": "12",
+      "length": "180min",
+      "like": "100M",
+      "videoLink": "https://youtu.be/Zd69FfhBmSc?si=XmV1aCV-48NP_vtc",
+      "desc": "A group of friends set out on a perilous journey to emigrate to the United Kingdom via a clandestine route called 'donkey flight', risking their lives in the process."
+    },
+    {
+      "id": "8988",
+      "title": "Animal",
+      "image": "https://m.media-amazon.com/images/I/61b5qf3NFqL.jpg",
+      "quallity": "HD",
+      "catagory": "Action",
+      "year": "2023",
+      "ageRatting": "18+",
+      "length": "180min",
+      "like": "200M",
+      "desc": "The son of a wealthy, powerful industrialist returns to India and undergoes a remarkable transformation as he becomes consumed by a quest for vengeance against those threatening his father's life.",
+      "videoLink": ""
+    },
+    {
+      "id": "5cc1",
+      "title": "Tiger Zinda hai",
+      "image": "https://images.indianexpress.com/2017/12/katrina-salman-tiger-zinda-hai-759.jpg",
+      "quallity": "HD",
+      "catagory": "Action",
+      "year": "2017",
+      "ageRatting": "15",
+      "length": "160min",
+      "like": "200M",
+      "desc": "RAW Agent Tiger joins forces with Zoya in order to rescue a group of nurses who are held hostage by a terrorist organisation.",
+      "videoLink": ""
+    }
+  ],
+  "user": [
+    {
+      "email": "khatunsania403@gmail.com",
+      "password": "sania3398",
+      "id": "b68e"
+    }
+  ]
 }

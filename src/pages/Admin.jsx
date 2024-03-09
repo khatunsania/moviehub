@@ -53,10 +53,13 @@ const Admin = () => {
 										<td>{item?.length}</td>
 										<td>
 											<Link to={`/detail/${item?.id}`}>
-												{" "}
 												<i class="fa-solid fa-eye"></i>
 											</Link>
-											<i class="fa-regular fa-pen-to-square"></i>
+
+											<Link to={`/edit/movie/${item?.id}`}>
+												<i class="fa-regular fa-pen-to-square"></i>
+											</Link>
+
 											<i class="fa-solid fa-trash-can"></i>
 										</td>
 									</tr>

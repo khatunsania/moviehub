@@ -18,9 +18,8 @@ function App() {
 				<Route path="/detail/:id" element={<Details />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/admin" element={<Admin />} />
-				<Route path="addmovie" element={<Addmovie />} />
-				<Route path="edit movie" element={<Edit />} />
-				
+				<Route path="/addmovie" element={<Addmovie />} />
+				<Route path="/edit/movie/:id" element={<Edit />} />
 			</Routes>
 			<Footer />
 		</>

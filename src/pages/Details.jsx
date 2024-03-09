@@ -49,14 +49,9 @@ const Details = () => {
 									</span>
 								</li>
 							</ul>
-							<p>
-								Lorem ipsum dolor sit amet, consecetur adipiscing elseddo
-								eiusmod tempor.There are many variations of passages of lorem
-								Ipsum available, but the majority have suffered alteration in
-								some injected humour.
-							</p>
+							<p>{movie?.desc}</p>
 							<button>
-								< Link to={movie?.videoLink}>
+								<Link to={movie?.videoLink}>
 									<i class="fas fa-play"></i>watch now
 								</Link>
 							</button>

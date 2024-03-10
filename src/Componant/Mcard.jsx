@@ -22,10 +22,10 @@ const Mcard = ({ item }) => {
 					</li>
 					<li>
 						<span classname="duration">
-							<i class="far fa-clock"></i> 128 min
+							<i class="far fa-clock"></i> {item?.length}
 						</span>
 						<span classname="rating">
-							<i class="fas fa-thumbs-up"></i> 3.5
+							<i class="fas fa-thumbs-up"></i>{item?.like}
 						</span>
 					</li>
 				</ul>

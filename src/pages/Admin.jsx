@@ -3,11 +3,13 @@ import "../style/Admin.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "../Componant/Navbar ";
+import { BallTriangle } from "react-loader-spinner";
 import { Link, useNavigate } from "react-router-dom";
 
 const Admin = () => {
 	const [movie, setmovie] = useState([]);
 	const navigate = useNavigate();
+
 	async function getmovie() {
 		const { data } = await axios.get("http://localhost:3000/movie");
 		setmovie(data);
@@ -20,6 +22,11 @@ const Admin = () => {
 		}
 		getmovie();
 	}, []);
+	async function delpost(id) {
+		await axios.delete(`http://localhost:3000/movie/${id}`, movie);
+		alert("post deleted");
+		setmovie(movie.filter((item) => item.id !== id));
+	}
 	return (
 		<>
 			<div className="admin">
@@ -41,7 +48,60 @@ const Admin = () => {
 									<th>Length</th>
 									<th>Action</th>
 								</tr>
-								{movie.map((item, index) => (
+								{movie && movie.length > 0 ? (
+									<>
+										{movie?.map((item, index) => (
+											<tr>
+												<td>{item?.id}</td>
+												<td>
+													<img src={item?.image} alt="" />
+												</td>
+												<td>{item?.quallity}</td>
+												<td>{item?.catagory}</td>
+												<td>{item?.year}</td>
+												<td>{item?.length}</td>
+												<td>
+													<Link to={`/detail/${item?.id}`}>
+														<i class="fa-solid fa-eye"></i>
+													</Link>
+
+													<Link to={`/edit/movie/${item?.id}`}>
+														<i class="fa-regular fa-pen-to-square"></i>
+													</Link>
+
+													<i
+														class="fa-solid fa-trash-can"
+														onClick={() => delpost(item?.id)}
+													>
+														{" "}
+													</i>
+												</td>
+											</tr>
+										))}
+									</>
+								) : (
+									<>
+										<div
+											style={{
+												position: "absolute",
+												top: "20%",
+												left: "50%",
+											}}
+										>
+											<BallTriangle
+												height={100}
+												width={100}
+												radius={5}
+												color="#efd808"
+												ariaLabel="ball-triangle-loading"
+												wrapperStyle={{}}
+												wrapperClass=""
+												visible={true}
+											/>
+										</div>
+									</>
+								)}
+								{/* {movie?.map((item, index) => (
 									<tr>
 										<td>{item?.id}</td>
 										<td>
@@ -60,52 +120,17 @@ const Admin = () => {
 												<i class="fa-regular fa-pen-to-square"></i>
 											</Link>
 
-											<i class="fa-solid fa-trash-can"></i>
+											<i
+												class="fa-solid fa-trash-can"
+												onClick={() => delpost(item?.id)}
+											>
+												{" "}
+											</i>
 										</td>
 									</tr>
-								))}
+								))} */}
 							</table>
 						</div>
-						{/* <div className="id-list">
-							{movie?.map((item, index) => (
-								<>
-									<ul>
-										<p>
-											<li>{item?.id}</li>
-										</p>
-										<p>
-											<li>
-												<img src={item?.image} alt="" />
-											</li>{" "}
-										</p>
-										<p>
-											<li>{item?.title}</li>
-										</p>
-										<p>
-											<li>{item?.catagory}</li>
-										</p>
-										<p>
-											<li>{item?.quallity}</li>
-										</p>
-										<li>
-											<Link to={`/detail/${item?.id}`}>
-												<button>
-													<i class="fa-solid fa-eye"></i>
-												</button>
-											</Link>
-
-											<button>
-												<i class="fa-solid fa-pen-to-square"></i>
-											</button>
-
-											<button>
-												<i class="fa-solid fa-trash"></i>
-											</button>
-										</li>
-									</ul>
-								</>
-							))}
-						</div> */}
 					</div>
 				</div>
 			</div>

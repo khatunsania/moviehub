@@ -3,6 +3,12 @@
 }
 .m-card .m-img {
 	width: 100%;
+	margin-top: 50px;
+}
+.m-card .m-img img {
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
 }
 .m-card .m-img h3 {
 	color: #fff;

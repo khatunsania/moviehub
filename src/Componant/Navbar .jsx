@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "../style/Navbar.css";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
 	const [show, setShow] = useState(false);
+	const navigate = useNavigate();
 	useEffect(function () {
 		const user = localStorage.getItem("user");
 		if (!user) {
 			setShow(true);
 		}
 	}, []);
+	function logout() {
+		localStorage.clear();
+		navigate("/");
+	}
 	return (
 		<>
 			<div className="navbar">
@@ -33,7 +39,17 @@ const Navbar = () => {
 							<li>tv show</li>
 							<li>princing</li>
 							<li>blog</li>
-							<li>contact</li>
+							{show ? (
+								<>
+									<li>Contact</li>
+								</>
+							) : (
+								<>
+									<Link to="/admin">
+										<li>Admin</li>
+									</Link>
+								</>
+							)}
 						</ul>
 					</div>
 					<div className="menu">
@@ -46,7 +62,7 @@ const Navbar = () => {
 							</>
 						) : (
 							<>
-								<button>Log Out</button>
+								<button onClick={logout}>Log Out</button>
 							</>
 						)}
 					</div>
@@ -57,4 +73,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
- 

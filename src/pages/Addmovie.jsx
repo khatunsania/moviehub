@@ -9,7 +9,7 @@ const Addmovie = () => {
 		title: "",
 		image: "",
 		quallity: "HD",
-		catagory: "",
+		catagory: "Thriller",
 		year: "",
 		ageRatting: "",
 		length: "",

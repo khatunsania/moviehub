@@ -82,6 +82,7 @@ const Addmovie = () => {
 									<option value="Romance">Romance</option>
 									<option value="Animation">Animation</option>
 									<option value="Comedy">Comedy</option>
+									<option value="Horror">Horror</option>
 								</select>
 							</label>
 						</div>

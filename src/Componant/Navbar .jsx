@@ -45,7 +45,7 @@ const Navbar = () => {
 								</>
 							) : (
 								<>
-									<Link to="/admin">
+									<Link to="/admin" style={{ textDecoration: "none" }}>
 										<li>Admin</li>
 									</Link>
 								</>

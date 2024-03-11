@@ -5,13 +5,13 @@
       "title": "Train to Bhusan",
       "image": "https://www.monash.edu/__data/assets/image/0007/2921785/varieties/banner.parallax.jpg",
       "ageRatting": "18+",
-      "quallity": "HD",
-      "catagory": "Thriller ",
+      "quallity": "14k",
+      "catagory": "Action",
       "year": "2016",
-      "length": "120 min",
-      "like": "100M",
+      "length": "130 min",
+      "like": "160M",
       "desc": "Seok-woo and his daughter are on a train to Busan on the latter's birthday to see his wife. However, the journey turns into a nightmare when they are trapped amidst a zombie outbreak in South Korea.",
-      "videoLink": ""
+      "videoLink": "https://youtu.be/pyWuHv2-Abk?si=VLUJoXmwhD3hQnv9"
     },
     {
       "id": "3",
@@ -40,32 +40,6 @@
       "videoLink": ""
     },
     {
-      "id": "e74b",
-      "title": "End game",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Endgame-movie-cover.jpg",
-      "quallity": "HD",
-      "catagory": "Action",
-      "year": "2006",
-      "ageRatting": "18+",
-      "length": "190min",
-      "like": "980k",
-      "desc": "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
-      "videoLink": ""
-    },
-    {
-      "id": "f612",
-      "title": "The Nun",
-      "image": "https://variety.com/wp-content/uploads/2018/09/the-nun-movie-2.jpg?w=1000",
-      "quallity": "HD",
-      "catagory": "Thriller",
-      "year": "2018",
-      "ageRatting": "18+",
-      "length": "170min",
-      "like": "70M",
-      "desc": "A priest and a novice arrive in Romania to investigate the death of a young nun. However, things take an ugly turn after they encounter a supernatural force.",
-      "videoLink": ""
-    },
-    {
       "id": "268f",
       "title": "Annabelle",
       "image": "https://miro.medium.com/v2/resize:fit:400/1*vRgvLnYHnYbY23b_xcP8-Q.jpeg",
@@ -79,19 +53,6 @@
       "videoLink": ""
     },
     {
-      "id": "178c",
-      "title": "The Conjuring",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_FMjpg_UX1000_.jpg",
-      "quallity": "HD",
-      "catagory": "Thriller",
-      "year": "2013",
-      "ageRatting": "18+",
-      "length": "180min",
-      "like": "100M",
-      "desc": "Rod and Carolyn find their pet dog dead under mysterious circumstances and experience a spirit that harms their daughter Andrea. They finally call investigators who can help them get out of the mess.",
-      "videoLink": ""
-    },
-    {
       "id": "ed5e",
       "title": "American Psycho",
       "image": "https://media.gq.com/photos/558288a8e52bc4b477a96f4b/master/pass/blogs-the-feed-american-psycho-sequel.jpg",
@@ -102,6 +63,19 @@
       "length": "190min",
       "like": "120M",
       "desc": "Patrick Bateman, a wealthy investment banker, hides his psychopathic ego from his friends. Later, his illogical fantasies escalate and he submits to an uncontrollable bloodlust.",
+      "videoLink": ""
+    },
+    {
+      "id": "3b00",
+      "title": "It",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_.jpg",
+      "quallity": "HD",
+      "catagory": "Thriller",
+      "year": "2017",
+      "ageRatting": "18+",
+      "length": "180min",
+      "like": "60M",
+      "desc": "Seven helpless and bullied children are forced to face their worst nightmares when Pennywise, a shape-shifting clown, reappears. The clown, an ancient evil torments children before feeding on them.",
       "videoLink": ""
     }
   ],
